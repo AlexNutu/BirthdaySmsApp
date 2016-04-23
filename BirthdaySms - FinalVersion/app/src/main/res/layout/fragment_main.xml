@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".BirthdayFragment"
+    tools:showIn="@layout/activity_main"
+    android:background="#e2f1f6">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="468dp"
+        android:id="@+id/listview_people"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="42dp"
+        android:text="~ Birthdays ~"
+        android:id="@+id/textView2"
+
+        android:layout_gravity="center_horizontal|top"
+        style="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+        android:clickable="false"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textIsSelectable="false"
+        android:textSize="@dimen/design_navigation_icon_size"
+        android:textColor="#3abbe9"
+        android:singleLine="false"
+        android:focusable="false" />
+
+</FrameLayout>

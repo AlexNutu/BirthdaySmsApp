@@ -1,0 +1,49 @@
+<resources>
+    <!--
+         Used in Action Bar, and in AndroidManifest to tell the device the name of this app.
+         It's to keep this short, so your launcher icon isn't displayed with "The greatest Wea"
+         or something similar.
+    -->
+
+    <string name="app_name">BirthdaySms</string>
+    <!--
+         By convention, "action" denotes that this String will be used as the label for an Action,
+         typically from the action bar.  The ActionBar is limited real estate, so shorter is better.
+    -->
+    <string name="action_settings">Settings</string>
+    <string name="action_map">Map Location</string>
+    <string name="action_share">Share</string>
+
+    <string name="title_activity_detail">Details</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+    <!-- Label for the location preference [CHAR LIMIT=30] -->
+    <string name="pref_location_label">Location</string>
+
+    <!-- Key name for storing location in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_location_key" translatable="false">location</string>
+
+    <!-- Default postal code for location preference [CHAR LIMIT=NONE] -->
+    <string name="pref_location_default" translatable="false">94043</string>
+
+
+    <string name="send_message" translatable="true">Send message</string>
+
+    <string name="notifications" translatable="true">Notifications</string>
+
+    <string name="sendmessage" translatable="true">Send Message</string>
+
+    <string name="name" translatable="true">Name  </string>
+
+    <string name="date" translatable="true">Date (dd/mm/yyyy)  </string>
+
+    <string name="phonenumber" translatable="true">Phone Number  </string>
+
+    <string name="facebook" translatable="true">Facebook Account  </string>
+
+    <string name="addmessage" translatable="true">Birthday Message </string>
+
+    <string name="save" translatable="true">Save</string>
+
+</resources>
